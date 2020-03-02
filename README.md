@@ -69,12 +69,12 @@ train.csv only
 *payment_date - Date payment was made, if it was received
 *payment_status - Current payment status as of Feb 1 2017
 *balance_due - Fines and fees still owed
-*collection_status - Flag for payments in collections
-*compliance [target variable for prediction] 
+⋅⋅⋅ collection_status - Flag for payments in collections
+* compliance [target variable for prediction] 
 * Null = Not responsible
- * 0 = Responsible, non-compliant
- * 1 = Responsible, compliant
-*compliance_detail - More information on why each ticket was marked compliant or non-compliant
+ ⋅⋅⋅ 0 = Responsible, non-compliant⋅⋅
+ ⋅⋅⋅ 1 = Responsible, compliant⋅⋅
+* compliance_detail - More information on why each ticket was marked compliant or non-compliant
 
 
 ### Evaluation
